@@ -1,5 +1,6 @@
 import copy
 from abc import ABC, abstractmethod
+
 from business_object.statistic import Statistic
 
 
@@ -50,7 +51,7 @@ class AbstractPokemon(ABC):
         return multiplier
         """
         pass
-    
+
     def level_up(self) -> None:
         """
         Increase the level by one
